@@ -17,7 +17,7 @@
 #define DEFAULT_TRIGGER_MAGNITUDE_MIN 5.0
 #define DEFAULT_TRIGGER_MAGNITUDE_MAX 500.0
 
-#define DRAW_TRIGGER_ARC // requires the ofGraphics::ofCircleSlice() mod from http://www.openframeworks.cc/forum/viewtopic.php?t=1811
+//#define DRAW_TRIGGER_ARC // requires the ofGraphics::ofCircleSlice() mod from http://www.openframeworks.cc/forum/viewtopic.php?t=1811
 
 class MotionTrigger : public MotionTracker{
 public:

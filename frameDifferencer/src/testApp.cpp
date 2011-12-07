@@ -3,7 +3,7 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	motionTracker.init(640, 480, 1);
-	motionTracker.setMirrorVideo(true);
+	//motionTracker.setMirrorVideo(true);
 	motionTracker.setDifferenceMode(DIFFERENCE_MODE_COLOR);
 	motionTracker.setCamThreshold(10);
 }

@@ -1,4 +1,5 @@
 #include "ofCircleSlice.h"
+#include "ofGraphics.h"
 
 void ofCircleSlice(float x,float y, float radius, float lowAngle, float highAngle, bool closed, bool radians){
     if (!bSetupCircle) setupCircle();
