@@ -10,6 +10,7 @@
 #define _MOTION_TRACKER
 
 #include "FrameDifferencer.h"
+#include "ofxOpenCv.h"
 #include "ofxCvOpticalFlowLK.h"
 #include "ofxCvOpticalFlowBM.h"
 

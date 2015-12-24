@@ -321,7 +321,7 @@ void FrameDifferencer::reset() {
 //--------------------------------------------------------------
 void FrameDifferencer::update(){
 	//	printf("starting MotionTracker %i update \n", index);
-	vidGrabber.grabFrame();
+	vidGrabber.update();
 	
 	if(bHasNewFrame = vidGrabber.isFrameNew()){
 		colorNow.setFromPixels(vidGrabber.getPixels(), camWidth,camHeight);

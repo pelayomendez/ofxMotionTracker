@@ -13,6 +13,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "legacy.hpp"
 #include "ofxCvConstants.h"
 #include "ofxCvGrayscaleImage.h"
 

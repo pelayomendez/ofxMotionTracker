@@ -10,7 +10,7 @@
 #define _FRAME_DIFFERENCER
 
 #include "ofMain.h"
-#include "ofxCvMain.h"
+#include "ofxOpenCv.h"
 #include "ofxTI_Utils.h"
 #include "ofxXmlSettings.h"
 
