@@ -100,6 +100,7 @@ public:
 	virtual void init(int w=DEFAULT_CAMERA_WIDTH, int h=DEFAULT_CAMERA_HEIGHT, int i=DEFAULT_CAMERA_ID);
 	virtual void update();
 	virtual void reset();
+	virtual void close();
 	bool hasNewFrame() { return bHasNewFrame; }
 	
 	bool loadCalibrationSettings(string calibrationXML="");

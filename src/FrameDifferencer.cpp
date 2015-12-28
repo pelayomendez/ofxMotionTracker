@@ -317,6 +317,9 @@ void FrameDifferencer::reset() {
 	greyBgDiff.set(0);
 }
 
+void FrameDifferencer::close() {
+	vidGrabber.close();
+}
 
 //--------------------------------------------------------------
 void FrameDifferencer::update(){
